@@ -1,9 +1,9 @@
 class Game
 
-  attr_reader
-
-  def initialize()
-
+  # attr_reader
+  #
+  def initialize(game)
+    @game = game
   end
 
 
